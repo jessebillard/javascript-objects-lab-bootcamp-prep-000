@@ -18,7 +18,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-console.log(destructivelyUpdateObjectWithKeyAndValue(testObj, 'age', 32))
+console.log(destructivelyUpdateObjectWithKeyAndValue(testObj, age, 32))
 
 
 function deleteFromObjectByKey(object, key) {
