@@ -18,8 +18,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-console.log(destructivelyUpdateObjectWithKeyAndValue(testObj, age, 32))
-
+console.log('hello');
 
 function deleteFromObjectByKey(object, key) {
   let newRec = Object.assign({}, recipes)
