@@ -10,7 +10,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
   return object
 }
-console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, 'prop2', 2))
+
 
 
 function deleteFromObjectByKey(object, key) {
@@ -25,7 +25,7 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return object
 }
 
-
+console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, 'prop2', 2))
 
 
 
