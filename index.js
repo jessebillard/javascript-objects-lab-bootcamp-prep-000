@@ -32,6 +32,6 @@ function destructivelyDeleteFromObjectByKey(object, key) {
 }
 
 
-console.log('is this working?');
+
 
 
