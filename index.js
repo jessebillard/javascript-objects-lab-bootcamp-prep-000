@@ -25,7 +25,7 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return object
 }
 
-console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, 'prop2', 2))
+console.log(destructivelyUpdateObjectWithKeyAndValue(object, key, value))
 
 
 
