@@ -18,7 +18,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-console.log('hello');
 
 function deleteFromObjectByKey(object, key) {
   let newRec = Object.assign({}, recipes)
@@ -33,6 +32,6 @@ function destructivelyDeleteFromObjectByKey(object, key) {
 }
 
 
-
+console.log('is this working?');
 
 
